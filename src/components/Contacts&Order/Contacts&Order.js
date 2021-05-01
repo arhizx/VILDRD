@@ -11,15 +11,8 @@ const ContactsAndOrder = () => {
         >
           Instagram
         </a>
-        <a
-          href="mailto:contactvildrd@gmail.com"
-          className="contactsandorder__gmail"
-        >
-          contactvildrd@gmail.com
-        </a>
-        <a href="mailto:contactvildrd@protonmail.com" className="protonmail">
-          contactvildrd@protonmail.com
-        </a>
+        <p className="contactsandorder__gmail">contactvildrd@gmail.com</p>
+        <p className="protonmail">contactvildrd@protonmail.com</p>
       </div>
     </div>
   );
