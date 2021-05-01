@@ -8,6 +8,13 @@ const ContactsAndOrder = () => {
           Located in Moscow, Russia - 48 Ariel
         </p>
         <a
+          href="https://www.instagram.com/vildrd/"
+          target="_blank no-rel no-referrer"
+          className="constactsandorder__instagram"
+        >
+          Instagram
+        </a>
+        <a
           href="mailto:contactvildrd@gmail.com"
           className="contactsandorder__gmail"
         >
