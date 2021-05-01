@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  max-height: 12%;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  color: white;
+  .header__logowrap {
+    background-image: url("./img/VILDRD.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 100%;
+    height: 50px;
+  }
+  .header__logowrap .header__title {
+    line-height: 100%;
+    font-size: 48px;
+  }
+  .header__links {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+  }
+  .header__link {
+    margin: 0 1em 0 1em;
+    text-decoration: none;
+    color: white;
+  }
+}
