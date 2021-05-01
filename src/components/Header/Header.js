@@ -14,12 +14,12 @@ const Header = () => {
         <ul className="header__links">
           <li>
             <Link to="/about" className="header__link">
-              About
+              ABOUT
             </Link>
           </li>
           <li>
             <Link to="/contactsandorder" className="header__link">
-              Contacts/Order
+              CONTACT//ORDER//BUY
             </Link>
           </li>
         </ul>
