@@ -1,22 +1,24 @@
-function App() {
+import { Route, Switch } from "react-router-dom";
+import "./App.css";
+import About from "./components/About/About";
+import ContactsAndOrder from "./components/Contacts&Order/Contacts&Order";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="" className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Switch>
+        <Route path="/contactsandorder">
+          <ContactsAndOrder />
+        </Route>
+        <Route path="/">
+          <About />
+        </Route>
+      </Switch>
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
