@@ -5,13 +5,15 @@ import "./Header.scss";
 const Header = () => {
   return (
     <div className="header">
-      <div className="header__logowrap">
-        <p className="header__title">VILDRD</p>
+      <div className="header__logo">
+        <Link to="/" className="header__title">
+          VILDRD
+        </Link>
       </div>
       <nav className="header__nav">
         <ul className="header__links">
           <li>
-            <Link to="/" className="header__link">
+            <Link to="/about" className="header__link">
               About
             </Link>
           </li>

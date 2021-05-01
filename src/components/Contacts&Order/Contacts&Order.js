@@ -4,9 +4,6 @@ const ContactsAndOrder = () => {
   return (
     <div className="container">
       <div className="contactsandorder">
-        <p className="constactsandorder__p">
-          Located in Moscow, Russia - 48 Ariel
-        </p>
         <a
           href="https://www.instagram.com/vildrd/"
           target="_blank no-rel no-referrer"
