@@ -5,7 +5,7 @@ const ContactsAndOrder = () => {
     <div className="container">
       <div className="contactsandorder">
         <a
-          href="https://www.instagram.com/vildrd/"
+          href="https://www.instagram.com/vildrdmaker/"
           target="_blank no-rel no-referrer"
           className="constactsandorder__instagram"
         >
