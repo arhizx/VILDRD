@@ -5,10 +5,9 @@ const About = () => {
     <div className="container">
       <div className="about">
         <p> Unique product made of wood//metal//stone</p>
-        <p>
-          Performing modernism// avant-garde//
-          minimalism//abstractionism//realism
-        </p>
+        <p>Performing modernism//</p>
+        <p>avant-garde//</p>
+        <p>minimalism//abstractionism//realism</p>
         <p>Preferring intuitive design// expression//raw aggressive look</p>
         <p>Implementing ideas </p>
         <p> Based in Moscow//shipping</p>
