@@ -8,3 +8,10 @@
   text-decoration: none;
   color: white;
 }
+
+@media screen and (min-width: 325px) {
+  .contactsandorder {
+    padding-left: 133px;
+    text-align: left;
+  }
+}

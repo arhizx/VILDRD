@@ -4,8 +4,15 @@ const About = () => {
   return (
     <div className="container">
       <div className="about">
-        <p>Something unique made of stone//wood//metal </p>
-        <p>Material selection//sketch design//expression</p>
+        <p> Unique product made of wood//metal//stone</p>
+        <p>
+          Performing modernism// avant-garde//
+          minimalism//abstractionism//realism
+        </p>
+        <p>Preferring intuitive design// expression//raw aggressive look</p>
+        <p>Implementing ideas </p>
+        <p> Based in Moscow//shipping</p>
+        <p> No personal data is collected</p>
       </div>
     </div>
   );
