@@ -19,6 +19,3 @@ const ContactsAndOrder = () => {
 };
 
 export default ContactsAndOrder;
-
-//contactvildrd@gmail.com
-//contactvildrd@protonmail.com
